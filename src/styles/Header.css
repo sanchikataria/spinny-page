@@ -1,0 +1,67 @@
+.header {
+    position: relative;
+    background-image: url('../assets/header.jpeg'); /* Add the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0; /* Increase padding to show more of the background image */
+    text-align: center;
+    height: 500px; /* Set a fixed height to ensure the full image is displayed */
+  }
+  
+  .header-overlay {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+    z-index: 0;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    margin: 5px 0;
+  }
+  
+  .header-check-eligibility {
+    margin: 20px 0;
+  }
+  
+  .header-check-eligibility button {
+    background: #e8384f; /* Your button color */
+    border-radius: 7px;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Increase padding to make the button wider */
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .header-check-eligibility button:hover {
+    background: #d82a44c8; /* Darker shade for hover effect */
+  }
+  
+  .header-benefits {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .header-benefits span {
+    font-size: 1em;
+  }
+  

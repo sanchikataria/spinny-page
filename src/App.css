@@ -1,6 +1,17 @@
 .App {
   text-align: center;
 }
+.calculator-container {
+  margin-top: -100px; /* Increase the overlap */
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: -300px auto 0 auto; /* Center the calculator and increase the overlap */
+  position: relative;
+  z-index: 1;
+}
 
 .App-logo {
   height: 40vmin;

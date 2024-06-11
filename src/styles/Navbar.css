@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    color:#4a125e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .navbar-location {
+    display: flex;
+    align-items: center;
+    color: #4a125e;
+    cursor: pointer;
+    border: .5px solid #838282;
+    padding: 10px 10px;
+    border-radius: 40px;
+  }
+  
+  .dropdown-arrow {
+    margin-left: 5px;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 40px;
+  }
+  
+  .navbar-search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .navbar-search button {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .navbar-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4a125e;
+  }
+  
+  .navbar-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .shortlisted, .account, .contact {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .shortlisted span, .account span, .contact span {
+    margin-left: 5px;
+  }
+  
